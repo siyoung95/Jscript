@@ -20,7 +20,7 @@ smallCups.forEach((cup, idx) => {
 function 작은컵들채우기(idx) {
   //마지막컵을 클릭했는데 이미 다 차있을 경우
   //contains() = (안의 값)을 포함하는지 확인 //smallCups[idx] = ?
-  //nextElementSibling =
+  //nextElementSibling = 
   if (idx === 7 && smallCups[idx].classList.contains('full')) {
     idx--;
   } else if (
