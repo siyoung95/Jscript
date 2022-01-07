@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 부트스트랩 CSS 링크 -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>Typography</title>
+  </head>
+  <body>
+    <div>
+      <h1 class="display-1">Display 1</h1>
+      <h1 class="display-2">Display 2</h1>
+      <h1 class="display-3">Display 3</h1>
+      <h1 class="display-4">Display 4</h1>
+      <h1 class="display-5">Display 5</h1>
+      <h1 class="display-6">Display 6</h1>
+    </div>
+    <div class="container">
+      <!-- container의 역할 = 양 옆에 공간을 띄워줌, 왜 = ?-->
+      <!-- h태그 클래스 = display-1 (1~6까지) -->
+      <h1 class="display-1">Display 1</h1>
+      <h1 class="display-2">Display 2</h1>
+      <h1 class="display-3">Display 3</h1>
+      <h1 class="display-4">Display 4</h1>
+      <h1 class="display-5">Display 5</h1>
+      <h1 class="display-6">Display 6</h1>
+    </div>
+    <div class="container">
+      <!-- figure = 이미지만 올리는 것이 아니라 이미지+부가설명을 할때 사용-->
+      <!-- figcaption = 부가설명을 쓸때 사용하는 태그 -->
+      <!-- blockquote = 인용문을 사용할 때 사용, 앞에 들여쓰기가 적용됨 -->
+      <figure class="text-end">
+        <blockquote class="blockquote">
+          <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+      </figure>
+    </div>
+    <div class="container">
+      <!-- text 클래스 = text-color -->
+      <!-- 백그라운드 클래스 = bg-color -->
+      <p class="text-primary">.text-primary</p>
+      <p class="text-secondary">.text-secondary</p>
+      <p class="text-success">.text-success</p>
+      <p class="text-danger">.text-danger</p>
+      <p class="text-warning bg-dark">.text-warning</p>
+      <p class="text-info bg-dark">.text-info</p>
+      <p class="text-light bg-dark">.text-light</p>
+      <p class="text-dark">.text-dark</p>
+      <p class="text-body">.text-body</p>
+      <p class="text-muted">.text-muted</p>
+      <p class="text-white bg-dark">.text-white</p>
+      <p class="text-black-50">.text-black-50</p>
+      <p class="text-white-50 bg-dark">.text-white-50</p>
+    </div>
+    <div class="container">
+      <!-- p = padding 크기 (0~5까지)-->
+      <!-- mb = margin-bottom 크기(0~5까지)-->
+      <div class="p-5 mb-2 bg-primary text-white">.bg-primary</div>
+      <div class="p-0 mb-2 bg-secondary text-white">.bg-secondary</div>
+      <div class="p-3 mb-0 bg-success text-white">.bg-success</div>
+      <div class="p-3 mb-5 bg-danger text-white">.bg-danger</div>
+      <div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+      <div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+      <div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+      <div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+      <div class="p-3 mb-2 bg-body text-dark">.bg-body</div>
+      <div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+      <div class="p-3 mb-2 bg-transparent text-dark">.bg-transparent</div>
+    </div>
+  </body>
+</html>
